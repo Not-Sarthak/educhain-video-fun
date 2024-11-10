@@ -9,10 +9,10 @@ const OCButton: React.FC<OCButtonProps> = ({ onClick, children }) => {
   return (
     <button
       onClick={onClick}
-      className="bg-black text-white rounded-full border border-gray-300 px-6 py-2"
+      className="bg-primary text-white px-4 py-2 rounded-smooth hover:bg-primary/90 transition-colors"
     >
       <div className="flex items-center justify-center space-x-2">
-        <div className="text-xl">{children}</div>
+        {children}
       </div>
     </button>
   );

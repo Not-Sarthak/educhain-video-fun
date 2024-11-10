@@ -1,11 +1,9 @@
-"use client";
-
 import { ChevronRight } from 'lucide-react';
-import { TutorCard } from '../components/cards/tutor-card';
-import { TrendingTutor } from '../components/cards/trending-tutor';
-import { TopicTag } from '../components/buttons/topic-tag';
+import { TutorCard } from '../cards/tutor-card';
+import { TrendingTutor } from '../cards/trending-tutor';
+import { TopicTag } from '../buttons/topic-tag';
 
-export default function App() {
+export function MainContent() {
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

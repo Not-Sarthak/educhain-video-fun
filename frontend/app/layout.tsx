@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import OCIDProvider from "../components/providers/ocid-provider";
 import Footer from "@/components/footer/footer";
-import Header from "@/components/header/header";
+import { WalletProvider } from "@/components/providers/wallet-context";
+import { Header } from "@/components/header/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <OCIDProvider>
+        <WalletProvider>
           <Header />
           {children}
-          <Footer />
-        </OCIDProvider>
+        </WalletProvider>
       </body>
     </html>
   );

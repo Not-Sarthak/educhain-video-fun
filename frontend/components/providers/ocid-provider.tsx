@@ -7,7 +7,7 @@ interface OCIDProviderProps {
 }
 
 const opts = {
-  redirectUri: "http://localhost:3000/redirect",
+  redirectUri: "http://localhost:3000/",
   referralCode: "",
 };
 
