@@ -70,7 +70,7 @@ export function TutorCard({ name, role, experience, price, imageUrl, rating }: T
             className="bg-primary text-white px-6 py-3 rounded-smooth flex items-center gap-2 hover:bg-primary/90 transform translate-y-4 group-hover:translate-y-0 transition-transform"
           >
             <Calendar className="w-5 h-5" />
-            Book a meeting
+            Buy Time
           </button>
         </div>
       </div>

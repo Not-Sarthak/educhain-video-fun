@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <nav className="flex space-x-8">
             <a href="/" className="text-primary font-medium">
-              Tutors
+              Discover
             </a>
             <a href="/profile" className="text-secondary">
               Your profile
