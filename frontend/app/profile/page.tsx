@@ -52,7 +52,7 @@ export default function ProfilePage() {
     try {
       const signer = provider.getSigner();
       const tx = await signer.sendTransaction({
-        to: "0xef7E2F8F5c7c8ae0Bfd1A7D55628616175BC25FB",
+        to: "0xB54b4CEA3AF35fEbA9650c03E5d2287c840383fD",
         value: ethers.utils.parseEther("0.01") 
       });
       await tx.wait();
