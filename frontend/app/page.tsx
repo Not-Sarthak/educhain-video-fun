@@ -42,7 +42,7 @@ export default function App() {
               {[1, 2].map((i) => (
                 <TutorCard
                   key={i}
-                  name="Jesse Pollak"
+                  name="Sarthak Shah"
                   role="SDE - 1"
                   experience="10 years exp"
                   price={24}
@@ -57,15 +57,27 @@ export default function App() {
           <section>
             <h2 className="text-xl font-semibold text-dark tracking-tight mb-4">Trending tutors</h2>
             <div className="space-y-3">
-              {[1, 2, 3].map((i) => (
                 <TrendingTutor
-                  key={i}
-                  name="Jesse Pollak"
+                  key={1}
+                  name="Ankit Raj"
                   role="SDE - 1"
+                  experience="3 years exp"
+                  rating={5}
+                />
+                <TrendingTutor
+                  key={2}
+                  name="Sarthak Shah"
+                  role="SDE - 3"
                   experience="10 years exp"
                   rating={5}
                 />
-              ))}
+                <TrendingTutor
+                  key={3}
+                  name="Siddharth Sharma"
+                  role="SDE - 1"
+                  experience="4 years exp"
+                  rating={5}
+                />
             </div>
           </section>
 
